@@ -87,3 +87,42 @@ nav .theme-cart span:hover {
 .beranda .right .rating .rating-customer {
   font-family: "poppins", sans-serif;
 }
+
+/* produk */
+.produk .title {
+  font-family: "Quicksand", sans-serif;
+}
+
+.produk p {
+  font-family: "poppins", sans-serif;
+}
+
+.produk .img-product {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+}
+
+.produk .img-product img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.produk .list-produk .list-produk-item .type {
+  font-size: 0.8rem;
+}
+
+.produk .deskripsi .nama-item {
+  font-family: "nunito", sans-serif;
+}
+
+.produk .deskripsi .harga-cart .harga {
+  font-family: "montserrat", sans-serif;
+}
+
+.produk .deskripsi .harga-cart .cart {
+  width: 40px;
+  height: 40px;
+}
