@@ -1,0 +1,89 @@
+:root {
+  --header-height: 0px;
+}
+
+header {
+  position: relative;
+  inline-size: 5;
+}
+
+.logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-family: "Pacifico", sans-serif;
+}
+
+.title-company {
+  font-family: "Pacifico", sans-serif;
+}
+
+nav .nav-menu a {
+  position: relative;
+  font-family: "Nunito", sans-serif;
+}
+
+nav .nav-menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+nav .nav-menu a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+nav .theme-cart span:hover {
+  cursor: pointer;
+}
+
+/* beranda */
+.beranda {
+  background-color: #fffaec;
+  min-height: calc(100vh - var(--header-height));
+}
+
+/* beranda kiri */
+.beranda .left .title span {
+  font-family: "Quicksand", sans-serif;
+}
+
+.beranda .left .title span:nth-of-type(1) {
+  color: #3f48cc;
+}
+
+.beranda .left p {
+  font-family: "poppins", sans-serif;
+}
+
+.beranda .left button {
+  font-family: "poppins", sans-serif;
+}
+
+/* beranda kanan */
+.beranda .right .rating {
+  position: absolute;
+  left: -20px;
+  bottom: -30px;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
+}
+
+.beranda .right .nilai {
+  width: 50px;
+  height: 50px;
+}
+
+.beranda .right .rating .rating-customer {
+  font-family: "poppins", sans-serif;
+}
