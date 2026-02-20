@@ -140,3 +140,24 @@ nav .theme-cart span:hover {
   width: 60px;
   height: 60px;
 }
+
+/* section kontak */
+
+.kontak {
+  background-color: #101828;
+}
+
+.kontak .kontak-company {
+  background-color: blue;
+}
+
+.kontak .kontak-company p {
+  font-family: "poppins", sans-serif;
+}
+
+.kontak .kontak-company p,
+.kontak .link .link-container .link-item a,
+.kontak .link .link-container .link-item div p {
+  color: #99a1af;
+  text-decoration: none;
+}
